@@ -1,0 +1,313 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+#banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../gambar/Banner2.jpg");
+  background-size: cover;
+}
+#logo {
+  width: 160px;
+  margin-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+#header {
+  width: 100%;
+  height: 75px;
+  margin-top: 0;
+  display: inline-block;
+}
+#menu {
+  float: right;
+  padding-top: 32px;
+  margin-right: 35px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.menu-item {
+  border-radius: 20px;
+  padding: 6px 15px;
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  margin-right: 20px;
+  opacity: 1;
+}
+#judul_banner {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 100px;
+}
+#judul_text {
+  font-size: 80px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+#judul_text2 {
+  font-size: 80px;
+  color: #ad9e00;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#tagline1 {
+  font-size: 30px;
+  line-height: 1.6;
+  margin-top: 0px;
+  font-size: 23px;
+  font-style: italic;
+  letter-spacing: 0.4px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+#about {
+  width: 100%;
+  height: 35vh;
+  background-color: rgb(250, 199, 133);
+  background-size: cover;
+  color: #ffffff;
+  margin-top: -36.5;
+  box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.8);
+}
+
+#w-iconbox-text {
+  font-size: 25px;
+  color: #433d41;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+.highlight_highlight_primary {
+  color: #ad9e00;
+}
+#highlight_highlight_primary2 {
+  font-size: 34px;
+  color: #433d41;
+  margin-bottom: 15px;
+  margin-top: 0%;
+}
+
+#card-item-container1 {
+  padding: 30px 0 50px;
+  padding-top: 40px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-color: gainsboro;
+  margin: 0px;
+}
+#TentangKami {
+  background-color: rgb(230, 225, 225);
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.card-item-container2-img {
+  display: inline-block;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(163, 162, 162, 0.849);
+  margin: 65px;
+  background-color: rgb(236, 252, 237);
+  transition: 1s;
+}
+.card-item-container2-img:hover {
+  transform: scale(1.1);
+  box-shadow: 3px 2px 2px black;
+}
+.card-kaos {
+  color: black;
+  text-decoration: none;
+  padding: 5px 11px;
+  border-radius: 10px;
+  position: inherit;
+  margin-top: 90px;
+  font-style: initial;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+.card-kaos:hover {
+  opacity: 1;
+  color: red;
+}
+#background {
+  background-color: darkgray;
+}
+.card-item-container3 {
+  height: auto;
+  margin-left: 20%;
+  margin-right: 15%;
+  background-color: #ffff;
+  background-size: contain;
+  border-radius: 20px;
+}
+.judul-pertanyaan {
+  display: inline-block;
+  transition: 1s;
+  padding-left: 255px;
+  margin-bottom: 0px;
+  color: #a39500;
+}
+.logo-pertanyaan {
+  width: 250px;
+  margin-left: 150px;
+  padding-bottom: 0px;
+}
+.penjelasan {
+  font-size: 22px;
+  color: #686464;
+  font-family: "Times New Roman", Times, serif;
+}
+.penjelasan1 {
+  padding-bottom: 55px;
+  padding-top: 35px;
+  font-size: 22px;
+  color: #686464;
+  font-family: "Times New Roman", Times, serif;
+}
+#wa {
+  display: inline-block;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 65px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.849);
+  background-color: #d4d407;
+  transition: 1s;
+  font-size: 34px;
+  color: #000;
+}
+.item-detail {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  background: #f5ad11;
+  color: #000;
+
+  text-decoration: none;
+}
+.item-detail:hover {
+  background: yellow;
+  color: #ff3030;
+}
+
+.item-detail-cancel {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 14px;
+  border-radius: 10px;
+  background: rgb(238, 6, 25);
+  color: white;
+  text-decoration: none;
+  float: right;
+  margin-right: 12;
+}
+
+.item-detail-cancel:hover {
+  background: yellow;
+  color: #ff3030;
+}
+
+.item-detail:focus {
+  background: rgb(219, 218, 208);
+}
+.cart {
+  margin: 5px 41px;
+  float: right;
+  border: 1px solid #ffff;
+  padding: 0px 30px;
+  background-color: gainsboro;
+  -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
+  box-shadow: 2px 15px -12px rgba(0, 0, 0, 0.57);
+  color: #000;
+  border-radius: 20px;
+}
+.app-display {
+  font-family: "Bebas Neue", cursive;
+  margin-top: -21;
+  padding-top: 15px;
+  text-align: left;
+  font-size: 40px;
+}
+
+.app-text {
+  text-decoration: none;
+  color: #ff5858;
+  padding-left: 25;
+}
+
+.app-text:hover {
+  color: black;
+}
+#footer {
+  font-size: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: #4d4d4d;
+  text-align: center;
+}
+#copy {
+  text-align: center;
+  color: #ffffff;
+}
+.review-form {
+  display: flex;
+  flex-direction: column;
+  width: 425px;
+  padding: 20px;
+  margin: 40px;
+  border: 2px solid rgb(54, 54, 54);
+  background-color: #d3a72e;
+  -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
+  box-shadow: 2px 15px -12px rgba(0, 0, 0, 0.57);
+  margin-top: 20px;
+  border-radius: 20px;
+  padding-top: 10;
+  font-family: "Monstserrat", sans-serif;
+  margin-left: 130px;
+}
+
+.review-container {
+  width: 425px;
+  padding: 20px;
+  background-color: white;
+  -webkit-box-shadow: 0px 2px 20px -12px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 2px 20px -12px rgba(0, 0, 0, 0.57);
+  box-shadow: 2px 20px -12px rgba(0, 0, 0, 0.57);
+  margin-left: 40px;
+  border: 2px solid #d8d8d8;
+  border-radius: 20px;
+  margin-top: -477px;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  float: right;
+  margin-right: 150px;
+  margin-top: -150px;
+}
+
+.review-container li {
+  margin-bottom: 30px;
+}
+
+.review-form .button {
+  display: block;
+  margin: 30px auto;
+  border-radius: 2px;
+  font-family: "Montserrat", sans-serif;
+}

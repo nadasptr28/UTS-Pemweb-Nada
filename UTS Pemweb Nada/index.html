@@ -1,0 +1,218 @@
+<html>
+  <head>
+    <title>Karisma Konveksi</title>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+
+    <!-- Vue -->
+    <script src="https://unpkg.com/vue@next"></script>
+
+   <!-- Link CSS  -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Link Logo -->
+    <link rel="icon" href="gambar/KK_Logo.png"
+    <script src="https://unpkg.com/vue@next"></script>
+  </head>
+  <body>
+
+    <!-- Banner dan Header -->
+    <div id="banner">
+      <div id="header">
+        <img src="gambar/DADI2.png" id="logo" />
+        <div id="menu">
+          <a href="#banner" class="menu-item">Beranda</a>
+          <a href="#TentangKami" class="menu-item">Tentang Kami</a>
+          <a href="#app" class="menu-item">Jasa Layanan</a>
+          <a href="#kontak" class="menu-item">Kontak</a>
+        </div>
+      </div>
+      <div id="judul_banner">
+        <h1 id="judul_text">RELIABLE</h1>
+        <br />
+        <h1 id="judul_text2">UNIFORM SUPPLIER</h1>
+        <p id="tagline1">Selamat Datang di situs web kami <strong>Karisma Konveksi</strong>, tempat pembuatan Seragam<br />yang tepat untuk segala kebutuhan anda</p>
+      </div>
+    </div>
+    <!-- Akhir Banner dan Header -->
+    
+    <!-- Tentang Kami -->
+    <div id="TentangKami">
+        <h3 id="highlight_highlight_primary2" style="text-align: center;"><strong><span class="highlight_highlight_primary">Tentang </span> Kami </strong></h3>
+        <p id="w-iconbox-text">
+          <span style="color: #ad9e00">Karisma Konveksi</span> melayani pembuatan kaos, polo t-shirt, kemeja dan seragam kerja. Bahan berkualitas dengan harga terjangkau yang menyesuaikan dengan kebutuhan anda mulai dari Seragam Kerja, PDL, Seragam Kantor, dll. 
+        </p>
+      </div>
+      <!-- Akhir Tentang Kami -->
+
+
+      <!-- Jasa Layanan -->
+      <div id="app">
+        <div class="cart">Cart({{ cart }})</div>
+      <div id="card-item-container1">
+        <div class="app-display"> 
+         
+          </div>
+        <div class="card-item-container2-img" >
+            <img src="gambar/KaosMerah.png" ><br>
+        <a href="#" class="card-kaos">KAOS T-SHIRTS</a>
+        <div>
+        <button class="item-detail" v-on:click="addToCart"><b>{{ Pesan }}</b></a></button>
+        <button class="item-detail-cancel" v-on:click="removeFromCart"><b>{{ Batal }}</b></a></button></div>
+        </div>
+        <div class="card-item-container2-img" >
+            <img src="gambar/KemejaMerah.png" ><br>
+        <a href="#" class="card-kaos">KEMEJA </a>
+        <div>
+        <button class="item-detail" v-on:click="addToCart"><b>{{ Pesan }}</b></a></button>
+        <button class="item-detail-cancel" v-on:click="removeFromCart"><b>{{ Batal }}</b></a></button></div>
+        </div>
+        <div class="card-item-container2-img" >
+            <img src="gambar/PoloMerah.png" ><br>
+        <a href="#" class="card-kaos">POLO</a>
+        <div>
+            <button class="item-detail" v-on:click="addToCart"><b>{{ Pesan }}</b></a></button>
+            <button class="item-detail-cancel" v-on:click="removeFromCart"><b>{{ Batal }}</b></a></button></div>
+         </div>
+         <div class="card-item-container2-img" >
+            <img src="gambar/celanapendekcoklat.png" ><br>
+        <a href="#" class="card-kaos">CELANA PENDEK</a>
+        <div>
+            <button class="item-detail" v-on:click="addToCart"><b>{{ Pesan }}</b></a></button>
+            <button class="item-detail-cancel" v-on:click="removeFromCart"><b>{{ Batal }}</b></a></button></div>
+         </div>
+         <div class="card-item-container2-img" >
+            <img src="gambar/celanapanjanghitam.png" ><br>
+        <a href="#" class="card-kaos">CELANA PANJANG</a>
+        <div>
+            <button class="item-detail" v-on:click="addToCart"><b>{{ Pesan }}</b></a></button>
+            <button class="item-detail-cancel" v-on:click="removeFromCart"><b>{{ Batal }}</b></a></button></div>
+         </div>
+         <div class="card-item-container2-img" >
+            <img src="gambar/udeng.png" ><br>
+        <a href="#" class="card-kaos">UDENG</a>
+        <div>
+            <button class="item-detail" v-on:click="addToCart"><b>{{ Pesan }}</b></a></button>
+            <button class="item-detail-cancel" v-on:click="removeFromCart"><b>{{ Batal }}</b></a></button></div>
+         </div>
+         <div class="card-item-container2-img" >
+            <img src="gambar/kemejapendek.png" ><br>
+        <a href="#" class="card-kaos">KEMEJA PENDEK</a>
+        <div>
+            <button class="item-detail" v-on:click="addToCart"><b>{{ Pesan }}</b></a></button>
+            <button class="item-detail-cancel" v-on:click="removeFromCart"><b>{{ Batal }}</b></a></button></div>
+         </div>
+         <div class="card-item-container2-img" >
+            <img src="gambar/hoodie.png" ><br>
+        <a href="#" class="card-kaos">HOODIE</a>
+        <div>
+            <button class="item-detail" v-on:click="addToCart"><b>{{ Pesan }}</b></a></button>
+            <button class="item-detail-cancel" v-on:click="removeFromCart"><b>{{ Batal }}</b></a></button></div>
+         </div>
+         <div class="card-item-container2-img" >
+            <img src="gambar/kaospanjang.png" ><br>
+        <a href="#" class="card-kaos">KAOS LENGAN PANJANG</a>
+        <div>
+            <button class="item-detail" v-on:click="addToCart"><b>{{ Pesan }}</b></a></button>
+            <button class="item-detail-cancel" v-on:click="removeFromCart"><b>{{ Batal }}</b></a></button></div>
+         </div>
+        
+         <!-- Akhir Jasa Layanan -->
+
+         <!-- Kontak -->
+         <div id="kontak">
+         <div id="card-item-container1">
+            <div class="card-item-container3">
+                <div class="logo-pertanyaan">
+                    <img src="gambar/DADI2.png" class="logo-pertanyaan" >
+                </div>
+                <div class="pertanyaan">
+                    <h1 class="judul-pertanyaan">PUNYA PERTANYAAN ?</h1>
+                    <P class="penjelasan" style="text-align: center;">Punya pertanyaan seputar Karisma Konveksi? Ayo tanya dan hubungi<br>
+                         WhatsApp atau telepon kami!</P>
+                    <div id="wa">
+                        <img src="gambar/whatsapp.png">
+                        081917231678</div>
+                        <div id="wa">
+                            <img src="gambar/telepon2.png">
+                            081917231678</div>
+                </div>
+                <div class="penjelasan1" style="text-align: center;">Silahkan menghubungi kami untuk mendapatkan informasi mengenai<br>
+                     harga baju seragam yang ingin Anda pesan, penawaran harga akan segera<br> kami kirimkan ke kontak Anda.
+                    Harga seragam<br> yang kami berikan masih terbuka terhadap negosiasi<br>
+                     atau dalam kata lain masih dapat dapat ditawar.</div>      
+             </div>
+            </div>
+        </div>
+      </div>
+        <!-- Akhir Kontak -->
+
+        <!-- Form  -->
+        <div id="contact">
+            <form class="review-form" @submit.prevent="onSubmit">
+              <h3>Tanggapan Anda</h3>
+              <label style="font-family: Georgia, 'Times New Roman', Times, serif;" for="name">Nama :</label>
+              <input id="name" v-model="name">
+          
+              <label style="font-family: Georgia, 'Times New Roman', Times, serif;" for="review">Tanggapan :</label>      
+              <textarea id="review" v-model="review"></textarea>
+          
+              <label style="font-family: Georgia, 'Times New Roman', Times, serif;" for="rating">Nilai :</label>
+              <select id="rating" v-model.number="rating">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+          
+              <label style="font-family: Georgia, 'Times New Roman', Times, serif;" for="recommend">Apakah Anda merasa puas ?</label>
+              <select id="recommend" v-model="recommend">
+                <option>Yes</option>
+                <option>No</option>
+              </select> 
+          
+              <input style="font-family: Georgia, 'Times New Roman', Times, serif;" class="button" type="submit" value="Selesai">  
+            </form>
+        
+            <div class="review-container">
+              <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">Tanggapan :</h3>
+                <ul>
+                  <li v-for="(review, index) in reviews" :key="index">
+                    {{ review.name }} gave this {{ review.rating }} stars
+                    <br/>
+                    "{{ review.review }}"
+                    <br/>
+                    Recommended: {{ review.recommend }}
+                  </li>
+                </ul>
+              </div>
+          </div>
+        <!-- Akhir Form -->
+
+        <!-- Footer -->
+        <div id="footer">
+            <span id="Copy">
+               &copy; Karisma Konveksi. All Rights Reserved.
+            </span>
+        </div>
+        <!-- Akhir Footer -->
+
+
+      <!-- Link Js -->
+      <script src="./js/main.js"></script>
+     
+      <!-- Komponen -->
+      <script src="./komponen/form.js"></script>
+      <script src="./komponen/list.js"></script>
+
+      <!-- Router -->
+      <script src="./Router/router.js"></script>
+
+
+      <script>
+        const mountedApp = app.mount('#app');
+      </script>
+
+  </body>
+</html>
